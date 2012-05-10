@@ -26,12 +26,14 @@ Meant to be used for snehta.com, but available to anyone.
 * open web browser to http://localhost:9292/
 
 ## Custom Domains
-**Set DNS A record Record for root domain to**
-* 75.101.163.44
-* 75.101.145.87
-* 174.129.212.2
+Log in to DNS provider (ie. Godaddy) and set DNS A record for root domain (**@**) to
 
-**set www CNAME to myapp.heroku.com**
+    75.101.163.44
+    75.101.145.87
+    174.129.212.2
+
+set **www** CNAME to **myapp.heroku.com**
+
     $ cd /path/to/app
     $ heroku config:add CANONICAL_URL=www.example.com
     $ heroku domains:add example.com
@@ -55,4 +57,3 @@ It should redirect to http://www.example.com
 
 This is a modified version of
 * https://github.com/sinatra/heroku-sinatra-app
-
