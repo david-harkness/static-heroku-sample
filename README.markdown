@@ -1,4 +1,6 @@
-# Here is a sample/template sinatra application ready for deployment to [Heroku](http://heroku.com).
+# Sample [Heroku](http://heroku.com) sinatra application
+
+Meant to be used for snehta.com, but available to anyone.
 
 ## Intial computer setupSetup
 * Create a[Heroku](http://heroku.com/signup) account.
