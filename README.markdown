@@ -26,10 +26,11 @@ Meant to be used for snehta.com, but available to anyone.
 * open web browser to http://localhost:9292/
 
 ## Custom Domains
-**Set DNS-A record Record for root domain to**
+**Set DNS A record Record for root domain to**
 * 75.101.163.44
 * 75.101.145.87
 * 174.129.212.2
+
 **set www CNAME to myapp.heroku.com**
     $ cd /path/to/app
     $ heroku config:add CANONICAL_URL=www.example.com
