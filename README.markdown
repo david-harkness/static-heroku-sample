@@ -49,10 +49,22 @@ It should redirect to http://www.example.com
     $ heroku logs --tail
 
 ## Clone Existing Website
+Not complete, this is for reference
+
     $ mkdir ~/clones
     $ ~/clones
     $ wget -m -p http://www.joyrouttpaintings.com
     $ cd www.joyrouttpaintings.com
+    $ cd /path/to/app
+    $ cd public
+    $ cp -R ~/clones/www.joyrouttpaintings.com/js .
+    $ cp -R ~/clones/www.joyrouttpaintings.com/images .
+    $ cp -R ~/clones/www.joyrouttpaintings.com/css .
+    $ cd /path/to/app
+    $ cd views
+    Copy over all html pages, rename extensions to .erb
+    $ cp ~/clones//www.joyrouttpaintings.com/index.html index.erb
+    edit heroku-sinatra-app.rb and add path
 ## Notes
 
 This is a modified version of
