@@ -3,7 +3,7 @@
 Meant to be used for snehta.com, but available to anyone.
 
 ## Intial computer setup.
-* Create a[Heroku](http://heroku.com/signup) account.
+* Create a [Heroku](http://heroku.com/signup) account.
 * Setup [Heroku SSH Keys](https://devcenter.heroku.com/articles/keys)
 * [Install ruby](http://www.ruby-lang.org/en/) (1.9.2 or higher)
 * [Install ruby gems](http://rubygems.org/)
@@ -13,7 +13,7 @@ Meant to be used for snehta.com, but available to anyone.
     $ gem install bundler --pre
 
 
-## setup new application
+## Setup new Project
     $ git clone git@github.com:david-harkness/static-heroku-sample.git [app-name]
     $ cd app-name
     $ heroku create [optional-app-name] # (You can rename your app with `heroku rename`)
@@ -46,6 +46,11 @@ Meant to be used for snehta.com, but available to anyone.
 
     $ heroku logs --tail
 
+## Clone Existing Website
+    $ mkdir ~/clones
+    $ ~/clones
+    $ wget -m -p http://www.joyrouttpaintings.com
+    $ cd www.joyrouttpaintings.com
 ## Notes
 
 This is a modified version of
