@@ -24,6 +24,7 @@ GEM
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    rack-rewrite (1.2.1)
     rack-test (0.6.1)
       rack (>= 1.0)
     rest-client (1.6.7)
@@ -51,6 +52,7 @@ DEPENDENCIES
   heroku
   hirb
   rack
+  rack-rewrite
   sinatra
   sinatra-contrib
   wirble
