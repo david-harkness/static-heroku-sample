@@ -37,7 +37,7 @@ Meant to be used for snehta.com, but available to anyone.
      $ heroku config:add CANONICAL_URL=www.example.com
      $ heroku domains:add example.com
      $ heroku domains:add www.example.com
-    
+
 * open web browser to http://example.com
 * It should redirect to http://www.example.com
 
