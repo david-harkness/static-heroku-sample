@@ -2,10 +2,9 @@
 
 Meant to be used for snehta.com, but available to anyone.
 
-## Intial computer setupSetup
+## Intial computer setup.
 * Create a[Heroku](http://heroku.com/signup) account.
-* If you do not have an SSH key you'll need to [generateone](http://heroku.com/docs/index.html#_setting_up_ssh_public_keys) and [tell Heroku about it](http://heroku.com/docs/index.html#_manage_keys_on_heroku)
-
+* Setup [Heroku SSH Keys](https://devcenter.heroku.com/articles/keys)
 * [Install ruby](http://www.ruby-lang.org/en/) (1.9.2 or higher)
 * [Install ruby gems](http://rubygems.org/)
 * [Install git] (http://git-scm.com/)
@@ -24,15 +23,14 @@ Meant to be used for snehta.com, but available to anyone.
     $ cd /path/to/app
     $ bundle install
     $ rackup
-* navigate to http://localhost:9292/
+* open web browser to http://localhost:9292/
 
-## Custom Domains*
+## Custom Domains
 
     $ heroku addons:add custom_domains
     $ heroku config:add CANONICAL_URL=www.example.com
     $ heroku domains:add www.example.com
 
-**  
 **Set DNS-A record Record for root domain to**
 
     75.101.163.44
