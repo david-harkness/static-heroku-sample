@@ -50,6 +50,7 @@ DEPENDENCIES
   ap
   heroku
   hirb
+  rack
   sinatra
   sinatra-contrib
   wirble
