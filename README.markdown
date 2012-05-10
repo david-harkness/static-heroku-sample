@@ -27,19 +27,18 @@ Meant to be used for snehta.com, but available to anyone.
 
 ## Custom Domains
 **Set DNS-A record Record for root domain to**
-
-    75.101.163.44
-    75.101.145.87
-    174.129.212.2
+* 75.101.163.44
+* 75.101.145.87
+* 174.129.212.2
 * set www CNAME to myapp.heroku.com
 
-     $ cd /path/to/app
-     $ heroku config:add CANONICAL_URL=www.example.com
-     $ heroku domains:add example.com
-     $ heroku domains:add www.example.com
+    $ cd /path/to/app
+    $ heroku config:add CANONICAL_URL=www.example.com
+    $ heroku domains:add example.com
+    $ heroku domains:add www.example.com
 
-* open web browser to http://example.com
-* It should redirect to http://www.example.com
+** Open browser to http://example**
+It should redirect to http://www.example.com
 
 [more info](https://devcenter.heroku.com/articles/custom-domains)
 
